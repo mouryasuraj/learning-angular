@@ -3,3 +3,6 @@ function greet(name) {
 }
 var result = greet("Suraj");
 console.log(result);
+
+
+let name
