@@ -68,7 +68,7 @@ function redirectBasedOnRole(role:Role): void{
         console.log("Redirecting to user page")
         return
     }
-    role;   // This line shows that how can many cases are left to user, 
+    role;   // This line shows that how many cases are left to use, 
 }
 
 
