@@ -9,7 +9,7 @@
 
 // How TS Works behind the scene - https://chatgpt.com/c/6954c2e2-96cc-8321-bec4-9bba36261c19
 1. TS code splitted into tokens by lexer
-2. Parse used these tokens to create AST
+2. Parser used these tokens to create AST
 3. AST given to binder and binders works is to create symbols tables, flow nodes
 4. Symbols given to emitter and emitter remove the extra things like data types and produces .js, .d.ts, .map files and we can run js like normal JS using JS runtime.
 
@@ -59,8 +59,8 @@ Implicit Type Mismatch
 let score = 100;  // TypeScript infers 'number'
 score = "high";  // Error: Type 'string' is not assignable to type 'number'
 
----> Avoid any When Possible
-        Using any disables TypeScript's type checking.
+---> Avoid "any" When Possible
+        Using "any" disables TypeScript's type checking.
 
         Instead, consider these alternatives:
 
