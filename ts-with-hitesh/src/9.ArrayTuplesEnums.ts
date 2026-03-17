@@ -1,5 +1,5 @@
 // Arrays
-const colors:string[] = ["red","green","yellow"];
+const colors:(string | number)[] = ["red","green","yellow"];
 const price:number[] = [10,20,30]
 
 

@@ -16,7 +16,7 @@ function serveChai(msg?: string) {
 }
 
 
-function orderChai(size: ("small" | "medium" | "large" | number)) {
+function orderChai(size: ("small" | "medium" | "large" | number)): string {
     if (size === "small") {
         return `small chai is serving`
     }
